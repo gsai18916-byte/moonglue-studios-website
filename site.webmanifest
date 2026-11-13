@@ -1,0 +1,8 @@
+{
+  "name": "Moonglue Studios",
+  "short_name": "Moonglue",
+  "icons": [{"src": "/assets/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}],
+  "theme_color": "#070b1f",
+  "background_color": "#070b1f",
+  "display": "standalone"
+}

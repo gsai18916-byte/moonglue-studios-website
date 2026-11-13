@@ -1,0 +1,12 @@
+VERCEL DEPLOYMENT
+
+1. Upload the CONTENTS of this folder to the ROOT of your GitHub repository.
+2. Confirm index.html is at repository root.
+3. Import the repository into Vercel.
+4. Framework Preset: Other
+5. Build Command: leave empty
+6. Output Directory: .
+7. Root Directory: ./ (or the folder containing index.html)
+8. Deploy. Add a custom domain later in Vercel > Project > Settings > Domains.
+
+Before public launch, replace the email placeholders and YOUR_FORM_ID, and ensure the privacy policy, app-ads.txt, and Play Store links accurately reflect your real setup.
