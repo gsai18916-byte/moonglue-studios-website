@@ -1,164 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moonglue Studios | Independent Mobile Game Developer</title>
-  <meta name="description" content="Moonglue Studios is an independent mobile game developer crafting fun, accessible games — including Arrowtide: Arrow Escape Puzzle on Google Play.">
-  <link rel="canonical" href="https://moongluestudios.com/">
-  <meta name="theme-color" content="#070b1f">
-  <meta name="author" content="Moonglue Studios">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Moonglue Studios">
-  <meta property="og:title" content="Moonglue Studios | Independent Mobile Game Developer">
-  <meta property="og:description" content="Moonglue Studios is an independent mobile game developer crafting fun, accessible games — including Arrowtide: Arrow Escape Puzzle on Google Play.">
-  <meta property="og:url" content="https://moongluestudios.com/">
-  <meta property="og:image" content="https://moongluestudios.com/assets/images/og-image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <!-- Google Search Console (optional): if you verify with the HTML-tag method, paste your tag below.
-       DNS (domain property) verification is recommended instead and needs no change here. -->
-  <!-- <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE"> -->
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Organization","name":"Moonglue Studios","url":"https://moongluestudios.com","logo":"https://moongluestudios.com/assets/images/logo.svg"}
-  </script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MOONGLUE STUDIOS — independent technology and product studio. Mobile applications, SaaS platforms, AI and custom software.">
+<meta name="theme-color" content="#050507"><title>MOONGLUE STUDIOS — Ideas into orbit.</title>
+<style>
+/* Foundations */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{--bg:#050507;--panel:#101018;--text:#fff;--muted:#a1a1aa;--violet:#8b5cf6;--blue:#38bdf8;--line:rgba(255,255,255,.12)}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:110px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;font-size:15px;line-height:1.7}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button,a,input,textarea,select{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--blue);outline-offset:5px}::selection{background:#6d28d9;color:white}.wrap{width:min(1280px,88%);margin:auto}h1,h2,h3,.brand{font-family:'Space Grotesk',Arial,sans-serif}h1,h2,h3,p{margin-top:0}h2{font-size:clamp(34px,4.4vw,60px);line-height:1.12;letter-spacing:-2px;font-weight:500}p{color:var(--muted)}.eyebrow{font-size:10px;letter-spacing:2px;font-weight:600;color:#b6a7d8;text-transform:uppercase}.eyebrow:before{content:'';display:inline-block;width:6px;height:6px;background:var(--violet);border-radius:50%;margin-right:11px;box-shadow:0 0 12px var(--violet)}.gradient{background:linear-gradient(110deg,#bda2ff 8%,#8b5cf6 48%,#75c9f9 100%);color:transparent;background-clip:text}.btn{display:inline-flex;align-items:center;justify-content:center;gap:22px;padding:14px 21px;border-radius:7px;border:1px solid var(--line);font-size:12px;font-weight:600;transition:transform .25s,background .25s,box-shadow .25s;cursor:pointer}.btn:hover{transform:translateY(-3px);background:#181322}.btn.primary{background:#8b5cf6;border-color:#a983ff;color:white;box-shadow:0 0 30px #8b5cf625}.btn.primary:hover{background:#9d74fc;box-shadow:0 0 35px #8b5cf64a}.arrow{font-size:18px;line-height:1}.rule{border-top:1px solid var(--line)}section{position:relative}.section{padding:110px 0}.section-top{display:flex;justify-content:space-between;gap:50px;align-items:flex-start;margin-bottom:48px}.section-top h2{max-width:650px;margin:18px 0 0}.section-top>p{max-width:340px;margin-top:45px;font-size:14px}.skip{position:fixed;top:-70px;left:20px;z-index:100;background:var(--violet);padding:10px}.skip:focus{top:10px}
+/* Floating navigation */
+header{position:fixed;top:22px;left:4%;width:92%;z-index:20;border:1px solid var(--line);border-radius:12px;background:#090910b8;backdrop-filter:blur(20px)}nav{height:74px;display:flex;align-items:center;justify-content:space-between;padding:0 26px;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-size:15px;letter-spacing:1.5px;font-weight:700;white-space:nowrap}.brand small{display:block;font:8px Inter,sans-serif;letter-spacing:4.8px;color:#a1a1aa;margin-top:-3px}.mark{width:29px;height:29px;border:1px solid #baa3fc;border-radius:50%;display:inline-block;position:relative;transform:rotate(-32deg)}.mark:before{content:'';position:absolute;inset:7px -6px;border:1px solid #baa3fc;border-radius:50%}.mark:after{content:'';position:absolute;width:5px;height:5px;border-radius:50%;background:#d8c6ff;top:1px;right:0;box-shadow:0 0 12px #b29aff}.links{display:flex;gap:29px;font-size:11px;color:#a1a1aa}.links a:hover,.links a.active{color:white}.nav-cta{padding:10px 15px;font-size:10px}.menu{display:none;background:none;border:0;color:white;font-size:24px}
+/* Hero universe, entirely CSS */
+.hero{min-height:850px;min-height:100svh;display:flex;align-items:center;overflow:hidden;padding:155px 0 100px;background:radial-gradient(ellipse at 78% 40%,#27134c45,transparent 47%)}.hero:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,var(--bg),transparent 17%)}.stars{position:absolute;inset:0;background-image:radial-gradient(1px 1px at 10% 20%,#ffffffaa 70%,transparent),radial-gradient(1px 1px at 55% 65%,#b7cfff 70%,transparent),radial-gradient(1px 1px at 80% 15%,#ffffffa0 70%,transparent),radial-gradient(1px 1px at 35% 80%,#9278c8 70%,transparent);background-size:243px 219px,317px 271px,419px 367px,183px 323px;opacity:.45;animation:twinkle 7s ease-in-out infinite alternate}.hero-grid{position:relative;display:grid;grid-template-columns:1.13fr 1fr;align-items:center;z-index:2}.hero-copy{z-index:3}.badge{display:inline-block;font-size:9px;letter-spacing:1.8px;border:1px solid #8b5cf63b;background:#8b5cf60b;border-radius:30px;padding:7px 12px;color:#c7bbdf}.badge b{font-size:12px;color:#ac86ff;margin-right:7px}h1{font-size:clamp(48px,5.6vw,79px);line-height:1.04;font-weight:500;letter-spacing:-3.6px;margin:26px 0}.hero p{max-width:510px;font-size:13px;line-height:1.9}.actions{display:flex;gap:12px;margin:31px 0 37px}.capabilities{display:flex;flex-wrap:wrap;gap:15px;font-size:9px;color:#a1a1aa}.capabilities span:before{content:'✧';color:#a78bfa;margin-right:7px}.universe{height:560px;position:relative;display:grid;place-items:center;isolation:isolate;margin-left:-30px}.universe:before{content:'';position:absolute;width:530px;height:530px;border-radius:50%;background:radial-gradient(circle,#7138c833,transparent 66%);filter:blur(20px)}.planet{position:relative;width:350px;height:350px;border-radius:50%;background:radial-gradient(circle at 30% 22%,#c8bded65,transparent 24%),radial-gradient(ellipse at 73% 85%,#38bdf840,transparent 50%),repeating-radial-gradient(ellipse at 24% 32%,#7e65a923 0 1px,transparent 2px 7px),radial-gradient(circle at 30% 30%,#635180,#242035 42%,#0a0b15 73%);box-shadow:inset 10px 7px 26px #c0a5ff42,inset -25px -20px 45px #000,0 0 2px 1px #b5a4eb90,0 0 70px #7852e424;transform:rotate(-22deg)}.planet:after{content:'';position:absolute;inset:-2px;border:1px solid #ba9fff40;border-radius:50%;box-shadow:-8px -5px 15px #8b5cf64d}.orbit{position:absolute;width:530px;height:200px;border:1px solid #b09be44a;border-radius:50%;transform:rotate(-28deg);box-shadow:0 -1px 9px #8b5cf620}.orbit.two{width:570px;height:350px;transform:rotate(38deg);border-color:#71628825}.orbit.three{width:470px;height:470px;transform:rotate(0);border:1px dashed #8d79b324}.satellite{position:absolute;top:148px;right:40px;width:8px;height:8px;background:#ccbbff;border-radius:50%;box-shadow:0 0 20px 4px #8b5cf6}.coordinate{position:absolute;font:9px monospace;color:#81788f;letter-spacing:2px;bottom:38px;right:38px}.planet-label{position:absolute;bottom:94px;left:0;font:9px monospace;letter-spacing:2px;color:#9b8bab}.planet-label:before{content:'';display:inline-block;width:40px;border-top:1px solid #8b5cf6;margin-right:12px;vertical-align:middle}.hero-bottom{position:absolute;bottom:24px;left:6%;right:6%;display:flex;justify-content:space-between;z-index:3;font:9px monospace;letter-spacing:1.5px;color:#71717a}.hero-bottom span:first-child{color:#b5a5d3}.status-dot{display:inline-block;width:5px;height:5px;background:#b695fc;border-radius:50%;margin-right:8px}
+/* Narrative and capabilities */
+.about{background:linear-gradient(125deg,#0b0911,#050507 70%)}.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:100px}.about h2{margin:22px 0 25px}.about-copy{padding-top:42px}.about-copy p{font-size:14px}.principles{display:flex;gap:30px;margin-top:32px;padding-top:25px;border-top:1px solid var(--line)}.principles strong{display:block;font-family:'Space Grotesk';font-size:18px;font-weight:500}.principles span{font-size:10px;color:#71717a}.section-number{font:10px monospace;color:#71627f;margin-bottom:15px}.services-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.service{position:relative;min-height:250px;padding:28px 23px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(140deg,#10101880,#09091040);transition:background .3s}.service:hover{background:#171222}.service .icon{font-size:26px;line-height:1.5;color:#b39ade;display:block;margin-bottom:26px}.service h3{font-size:17px;font-weight:500;line-height:1.3;letter-spacing:-.4px}.service p{font-size:11px;margin-bottom:0}.service-num{position:absolute;top:31px;right:22px;font:9px monospace;color:#5b526b}.approach{background:radial-gradient(ellipse at 15% 70%,#23133640,transparent 50%),#090910}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}.step{border-top:1px solid #8b5cf660;padding-top:20px}.step span{font:11px monospace;color:#b19adf}.step h3{font-size:22px;font-weight:500;margin:25px 0 10px}.step p{font-size:12px}.approach-note{margin-top:35px;padding:18px 24px;border:1px solid var(--line);border-radius:8px;color:#a1a1aa;font-size:12px;display:flex;align-items:center;gap:15px}.approach-note b{font-size:20px;color:#b39ade}.contact{padding:110px 0;background:radial-gradient(ellipse at 15% 40%,#3e1b5c30,transparent 50%)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px}.contact h2{margin-top:20px;font-size:clamp(42px,5vw,68px)}.contact p{font-size:14px;max-width:390px}.contact-mini{margin-top:55px;font:10px monospace;color:#8b7e9f;letter-spacing:1px}.form{padding:32px;background:#10101890;border:1px solid var(--line);border-radius:12px}.form label{display:block;font-size:11px;color:#c6c1d0;margin:0 0 7px}.form input,.form select,.form textarea{width:100%;background:#090910;border:1px solid var(--line);border-radius:5px;color:white;padding:11px 12px;font-size:12px;margin-bottom:19px}.form textarea{resize:vertical;min-height:100px}.form select{color-scheme:dark}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}.form button{width:100%}.form-note{font-size:10px!important;line-height:1.6;margin:14px 0 0!important;color:#817b8b}.download-link{display:none;margin-top:12px;font-size:12px;color:#cbb8ff;text-decoration:underline}footer{padding:32px 0;border-top:1px solid var(--line)}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:25px}.footer-row>span{font-size:10px;color:#71717a}.footer-row>a:last-child{font-size:10px;color:#a1a1aa}.footer-brand{font-size:11px}.footer-brand .mark{width:22px;height:22px}.reveal{animation:appear .9s both}@keyframes appear{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}@keyframes twinkle{to{opacity:.8;transform:translateY(-5px)}}
+/* Responsive and motion preferences */
+@media(min-width:1600px){.hero{min-height:950px}}@media(max-width:1050px){.links{gap:16px}.hero-grid{grid-template-columns:1.2fr 1fr}.universe{transform:scale(.8);margin-left:-80px}h1{font-size:60px}.about-grid,.contact-grid{gap:45px}.services-grid{grid-template-columns:repeat(2,1fr)}.capabilities{gap:9px}}
+@media(max-width:760px){.wrap{width:88%}header{top:12px}nav{height:62px;padding:0 17px}.brand{font-size:12px}.nav-cta{margin-left:auto;font-size:9px;padding:8px 10px;gap:8px}.menu{display:block}.links{display:none;position:absolute;top:73px;left:0;right:0;padding:20px;background:#101018;border:1px solid var(--line);border-radius:10px;flex-direction:column;gap:18px;font-size:13px}.links.open{display:flex}.hero{padding:135px 0 90px;min-height:0}.hero-grid{display:flex;flex-direction:column;align-items:stretch}.hero h1{font-size:clamp(43px,9vw,68px);letter-spacing:-2.4px}.badge{font-size:7px;letter-spacing:1.3px}.hero p{font-size:12px;max-width:100%}.actions{gap:9px;margin:24px 0}.actions .btn{padding:12px 14px;font-size:10px;gap:12px}.universe{height:370px;transform:scale(.75);margin:-15px -55px -35px}.planet-label{left:30px}.hero-bottom{font-size:7px;letter-spacing:.8px;bottom:22px}.section{padding:75px 0}.about-grid,.contact-grid{grid-template-columns:1fr;gap:18px}.about-copy{padding-top:0}.about h2{font-size:39px}.section-top{display:block;margin-bottom:30px}.section-top>p{margin:22px 0 0;max-width:100%}.section-top h2{font-size:38px}.service{padding:23px 18px;min-height:245px}.service h3{font-size:16px}.service .icon{margin-bottom:20px}.service-num{right:16px}.steps{grid-template-columns:1fr 1fr;gap:30px 22px}.step h3{margin-top:18px;font-size:20px}.contact{padding:75px 0}.contact-mini{margin:25px 0}.form{padding:23px}.form-row{grid-template-columns:1fr;gap:0}.footer-row{flex-wrap:wrap}.footer-row>span{order:3;width:100%;font-size:9px}.coordinate{right:15px}h2{letter-spacing:-1.5px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="./" aria-label="Moonglue Studios home">
-        <img src="assets/images/logo.svg" alt="" width="36" height="36">
-        <span>Moonglue Studios</span>
-      </a>
-      <nav aria-label="Main">
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-        </button>
-        <ul class="nav-links" id="nav-links">
-          <li><a href="" aria-current="page">Home</a></li>
-          <li><a href="about/">About Us</a></li>
-          <li><a href="games/">Our Games</a></li>
-          <li><a href="privacy-policy/">Privacy Policy</a></li>
-          <li><a href="contact/">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="stars" aria-hidden="true"></div>
-      <div class="orb orb-1" aria-hidden="true"></div>
-      <div class="orb orb-2" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Independent mobile game studio</p>
-          <h1 id="hero-title">Crafting Fun, <span class="gradient-text">One Game at a Time.</span></h1>
-          <p class="lead">Moonglue Studios is an independent developer of mobile games. We make easy-to-learn, satisfying games you can enjoy in a few spare minutes or settle into for an evening.</p>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="games/">Explore our games</a>
-            <a class="btn btn-ghost" href="about/">About the studio</a>
-          </div>
-        </div>
-        <div class="hero-art">
-          <img src="assets/images/hero-moon.svg" alt="" width="420" height="420" fetchpriority="high">
-        </div>
-      </div>
-    </section>
-
-    <section class="section-tight" aria-labelledby="intro-title">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Who we are</p>
-          <h2 id="intro-title">Small studio. Big love for play.</h2>
-          <p>We design games around a simple idea: great games should feel good from the first tap. That means clear rules, clean visuals, fair challenge and respect for your time and privacy.</p>
-        </div>
-        <div class="grid grid-3">
-          <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/></svg></div><h3>Instantly playable</h3><p>Pick-up-and-play mechanics that anyone can learn in seconds and enjoy for much longer.</p></article>
-          <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>Crafted with care</h3><p>Every level, sound and animation is tuned by hand to feel smooth, readable and satisfying.</p></article>
-          <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Player-first</h3><p>Clear privacy practices and a support inbox that's actually read by the people making the game.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="featured-title">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Featured game</p>
-          <h2 id="featured-title">Meet Arrowtide</h2>
-        </div>
-        <div class="feature">
-          <div>
-            <div class="feature-meta">
-              <img class="app-icon" src="assets/images/games/arrowtide/icon.svg" alt="Arrowtide app icon" width="84" height="84" loading="lazy">
-              <div>
-                <h3>Arrowtide: Arrow Escape Puzzle</h3>
-                <span class="tag">Puzzle</span>
-              </div>
-            </div>
-            <p>Every arrow points somewhere — your job is to send each one sliding off the board. Tap an arrow and it travels in the direction it faces, but arrows can block each other, so the order you choose matters. Think ahead, untangle the board, and clear every level.</p>
-            <div class="btn-row" style="margin-top:1.6rem">
-              <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.moongluestudios.arrowtide" target="_blank" rel="noopener" aria-label="Get Arrowtide: Arrow Escape Puzzle on Google Play (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00d7fe" d="M3.6 1.8 13.4 12l-9.8 10.2c-.4-.2-.6-.7-.6-1.2V3c0-.5.2-1 .6-1.2z"/><path fill="#ffce00" d="m16.8 8.6-3.4 3.4 3.4 3.4 3.9-2.2c1-.6 1-1.8 0-2.4z"/><path fill="#00f076" d="M3.6 1.8c.3-.2.8-.2 1.2 0l12 6.8-3.4 3.4z"/><path fill="#f83448" d="m13.4 12 3.4 3.4-12 6.8c-.4.2-.9.2-1.2 0z"/></svg><span><small>Get it on</small><strong>Google Play</strong></span></a>
-              <a class="btn btn-ghost" href="games/#arrowtide">Game details</a>
-            </div>
-          </div>
-          <div class="phones">
-            <img src="assets/images/games/arrowtide/screenshot-1.svg" alt="Arrowtide gameplay screenshot" width="360" height="640" loading="lazy">
-            <img src="assets/images/games/arrowtide/screenshot-2.svg" alt="Arrowtide puzzle level screenshot" width="360" height="640" loading="lazy">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-tight" aria-labelledby="mission-title">
-      <div class="container">
-        <div class="band">
-          <p class="eyebrow">Our mission</p>
-          <h2 id="mission-title">Games that are easy to love.</h2>
-          <p>Our mission is to create engaging, accessible and genuinely enjoyable mobile games — polished experiences that fit into everyday life and leave players with a smile.</p>
-          <div class="btn-row" style="justify-content:center;margin-top:1.6rem">
-            <a class="btn btn-primary" href="contact/">Get in touch</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <a class="brand" href="./"><img src="assets/images/logo.svg" alt="" width="36" height="36"><span>Moonglue Studios</span></a>
-          <p style="margin-top:1rem">Moonglue Studios is an independent mobile game developer making fun, accessible games for everyone.</p>
-        </div>
-        <nav aria-label="Footer">
-          <p class="footer-title">Explore</p>
-          <ul class="footer-links">
-            <li><a href="">Home</a></li>
-            <li><a href="about/">About Us</a></li>
-            <li><a href="games/">Our Games</a></li>
-            <li><a href="privacy-policy/">Privacy Policy</a></li>
-            <li><a href="contact/">Contact Us</a></li>
-          </ul>
-        </nav>
-        <div>
-          <p class="footer-title">Get in touch</p>
-          <ul class="footer-links">
-            <li><a href="mailto:[YOUR OFFICIAL EMAIL]">[YOUR OFFICIAL EMAIL]</a></li>
-            <li><a href="contact/">Support &amp; feedback</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.moongluestudios.arrowtide" target="_blank" rel="noopener">Arrowtide on Google Play</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>Copyright &copy; 2026 Moonglue Studios. All rights reserved.</span>
-        <span>Google Play and the Google Play logo are trademarks of Google LLC.</span>
-      </div>
-    </div>
-  </footer>
-  <script src="assets/js/main.js" defer></script>
+<a href="#main" class="skip">Skip to content</a>
+<!-- Navigation -->
+<header><nav aria-label="Main navigation"><a href="#home" class="brand" aria-label="MOONGLUE STUDIOS home"><span class="mark" aria-hidden="true"></span><span>MOONGLUE<small>STUDIOS</small></span></a><div class="links" id="nav-links"><a href="#home" class="active">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#contact">Contact</a></div><a class="btn primary nav-cta" href="#contact">Start a Project <span>↗</span></a><button class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">☰</button></nav></header>
+<main id="main">
+<!-- Hero -->
+<section id="home" class="hero"><div class="stars" aria-hidden="true"></div><div class="wrap hero-grid"><div class="hero-copy reveal"><div class="badge"><b>✧</b> INDEPENDENT TECHNOLOGY & PRODUCT STUDIO</div><h1>We turn bold<br>ideas into<br><span class="gradient">powerful digital<br>products.</span></h1><p>MOONGLUE STUDIOS is a technology and product development studio building innovative Android applications, iOS applications, and scalable SaaS platforms. We transform ideas into meaningful digital experiences through engineering, creativity, and technology.</p><div class="actions"><a class="btn primary" href="#contact">Let's Build Something <span class="arrow">↗</span></a><a class="btn" href="#services">Explore Our Capabilities <span>↓</span></a></div><div class="capabilities"><span>Android & iOS Development</span><span>SaaS Product Engineering</span><span>AI-Powered Solutions</span></div></div><div class="universe" role="img" aria-label="An abstract violet digital planet surrounded by orbital rings"><div class="orbit three"></div><div class="orbit two"></div><div class="planet"></div><div class="orbit"></div><div class="satellite"></div><span class="planet-label">IDEAS HAVE NO GRAVITY.</span><span class="coordinate">MG—001 / NEW POSSIBILITIES</span></div></div><div class="hero-bottom"><span><i class="status-dot"></i>ENGINEERED FOR WHAT'S NEXT</span><a href="#about">SCROLL TO EXPLORE ↓</a></div></section>
+<!-- About -->
+<section id="about" class="section about rule"><div class="wrap about-grid"><div><div class="section-number">01 / THE STUDIO</div><div class="eyebrow">Built on curiosity. Driven by craft.</div><h2>Building the next<br>generation of<br><span class="gradient">digital products.</span></h2></div><div class="about-copy"><p>Big ideas deserve thoughtful execution. MOONGLUE STUDIOS brings product thinking, design, and software engineering together to turn ambitious concepts into useful digital experiences.</p><p>From your first MVP to a platform ready for its next chapter, we focus on the details that matter: clear experiences, maintainable technology, and room to grow.</p><div class="principles"><div><strong>Product first.</strong><span>Purpose before features</span></div><div><strong>Built to evolve.</strong><span>A foundation for what's next</span></div></div></div></div></section>
+<!-- Capabilities -->
+<section id="services" class="section"><div class="wrap"><div class="section-top"><div><div class="section-number">02 / OUR CAPABILITIES</div><div class="eyebrow">From possibility to product</div><h2>Your vision.<br>Our engineering.</h2></div><p>One studio for the entire product journey. Purposeful technology, shaped around your users and your business.</p></div><div class="services-grid">
+<article class="service"><span class="service-num">01</span><span class="icon" aria-hidden="true">⌁</span><h3>Android<br>Development</h3><p>Thoughtful native Android experiences, built around the way people use their devices.</p></article>
+<article class="service"><span class="service-num">02</span><span class="icon" aria-hidden="true">◈</span><h3>iOS<br>Development</h3><p>Refined iPhone and iPad applications that bring clarity to every interaction.</p></article>
+<article class="service"><span class="service-num">03</span><span class="icon" aria-hidden="true">⌘</span><h3>Cross-Platform<br>Applications</h3><p>A consistent mobile experience across platforms, with a shared product foundation.</p></article>
+<article class="service"><span class="service-num">04</span><span class="icon" aria-hidden="true">▱</span><h3>SaaS Product<br>Engineering</h3><p>Cloud software designed for real workflows, growing teams, and evolving needs.</p></article>
+<article class="service"><span class="service-num">05</span><span class="icon" aria-hidden="true">⟨/⟩</span><h3>Web Application<br>Development</h3><p>Responsive, accessible web experiences that make complex tasks feel simple.</p></article>
+<article class="service"><span class="service-num">06</span><span class="icon" aria-hidden="true">✳</span><h3>AI-Powered<br>Applications</h3><p>Practical AI integrations that help people discover, create, and get things done.</p></article>
+<article class="service"><span class="service-num">07</span><span class="icon" aria-hidden="true">◇</span><h3>Custom Software<br>Solutions</h3><p>Software shaped around your specific operations, challenges, and opportunities.</p></article>
+<article class="service"><span class="service-num">08</span><span class="icon" aria-hidden="true">↗</span><h3>MVP & Startup<br>Engineering</h3><p>A focused first release to test your idea, learn from users, and move forward.</p></article>
+</div></div></section>
+<!-- Approach -->
+<section id="approach" class="section approach rule"><div class="wrap"><div class="section-top"><div><div class="section-number">03 / HOW WE BUILD</div><div class="eyebrow">Clarity at every stage</div><h2>Ambitious ideas.<br>A grounded approach.</h2></div><p>A collaborative path from the first conversation to the next release. Clear decisions, considered execution, and shared momentum.</p></div><div class="steps"><article class="step"><span>01 — DISCOVER</span><h3>Find the right problem.</h3><p>Understand your goals, your users, and the constraints. Define what success should look like.</p></article><article class="step"><span>02 — DESIGN</span><h3>Make the idea tangible.</h3><p>Shape the experience, explore the important interactions, and align on a focused product direction.</p></article><article class="step"><span>03 — ENGINEER</span><h3>Build with intention.</h3><p>Develop in focused iterations, review progress together, and test the details that matter.</p></article><article class="step"><span>04 — EVOLVE</span><h3>Launch. Learn. Improve.</h3><p>Prepare for release, listen to feedback, and use real insights to guide the next chapter.</p></article></div><div class="approach-note"><b aria-hidden="true">✧</b> Good products grow from open conversations. We build with you, every step of the way.</div></div></section>
+<!-- Contact: no backend; export a project brief honestly -->
+<section id="contact" class="contact rule"><div class="wrap contact-grid"><div><div class="section-number">04 / YOUR NEXT CHAPTER</div><div class="eyebrow">Every great product starts somewhere</div><h2>Have a bold idea?<br><span class="gradient">Let's give it<br>an orbit.</span></h2><p>Tell us what you're imagining. Start with the problem you want to solve, and where you want to take it.</p><div class="contact-mini">YOUR VISION + OUR CRAFT → WHAT'S NEXT</div></div><form class="form" id="project-form"><div class="form-row"><div><label for="name">Your name *</label><input id="name" name="name" autocomplete="name" placeholder="Alex Morgan" maxlength="100" required></div><div><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" placeholder="alex@company.com" maxlength="200" required></div></div><label for="service">What are you looking to build? *</label><select id="service" name="service" required><option value="">Select a service</option><option>Android application</option><option>iOS application</option><option>Cross-platform application</option><option>SaaS platform</option><option>Web application</option><option>AI-powered application</option><option>Custom software</option><option>MVP / startup product</option><option>Let's figure it out together</option></select><label for="idea">A little about your idea *</label><textarea id="idea" name="idea" placeholder="The idea, the challenge, the possibilities…" minlength="10" maxlength="5000" required></textarea><button type="submit" class="btn primary">Prepare My Project Brief <span class="arrow">↗</span></button><p class="form-note" id="form-status" role="status">This standalone website saves your brief as a text file. It does not send an enquiry. A studio contact address is needed to enable delivery.</p><a class="download-link" id="brief-download">Download your project brief ↓</a></form></div></section>
+</main>
+<footer><div class="wrap footer-row"><a href="#home" class="brand footer-brand"><span class="mark" aria-hidden="true"></span><span>MOONGLUE STUDIOS</span></a><span>© <span id="year">2026</span> MOONGLUE STUDIOS. Crafted for what's next.</span><a href="#home">Back to the stars ↑</a></div></footer>
+<script>
+/* Accessible mobile navigation */
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');
+function closeMenu(){links.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open menu');menu.textContent='☰'}
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';links.classList.toggle('open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close menu':'Open menu');menu.textContent=open?'×':'☰'});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();}});
+document.addEventListener('click',e=>{if(!e.target.closest('header'))closeMenu()});
+/* Section-aware navigation */
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){links.querySelectorAll('a').forEach(a=>{const active=a.getAttribute('href')==='#'+entry.target.id;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})}}},{rootMargin:'-15% 0px -60% 0px',threshold:0});document.querySelectorAll('main section[id]').forEach(s=>observer.observe(s));}
+document.getElementById('year').textContent=new Date().getFullYear();
+/* Local project brief export; no data leaves the browser. */
+let briefUrl;
+document.getElementById('project-form').addEventListener('submit',e=>{e.preventDefault();const f=new FormData(e.currentTarget);const text=['MOONGLUE STUDIOS — PROJECT ENQUIRY','', 'Name: '+f.get('name'),'Email: '+f.get('email'),'Service: '+f.get('service'),'','PROJECT IDEA',f.get('idea')].join('\n');if(briefUrl)URL.revokeObjectURL(briefUrl);briefUrl=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.getElementById('brief-download');a.href=briefUrl;a.download='moonglue-project-brief.txt';a.style.display='inline-block';document.getElementById('form-status').textContent='Your brief is ready to download. Nothing has been sent to MOONGLUE STUDIOS.';a.click();});
+window.addEventListener('beforeunload',()=>{if(briefUrl)URL.revokeObjectURL(briefUrl)});
+</script>
 </body>
 </html>
