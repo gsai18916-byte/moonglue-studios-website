@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moongluestudios.com/sitemap.xml
+Sitemap: https://moonglue-studios-website.vercel.app/sitemap.xml
